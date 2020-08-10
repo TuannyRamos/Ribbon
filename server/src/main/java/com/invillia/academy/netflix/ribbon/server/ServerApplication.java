@@ -22,10 +22,4 @@ public class ServerApplication {
         logger.info("acessando hello world");
         return "hello world";
     }
-
-    @GetMapping("/")
-    public String home() {
-        logger.info("acessando home");
-        return "home";
-    }
 }
