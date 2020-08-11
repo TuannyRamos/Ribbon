@@ -8,7 +8,7 @@ Client: API /call-hello que chama a API /hello utilizando Ribbon.
 * [Client](https://github.com/TuannyRamos/Ribbon/tree/master/client)
 
 ## Para subir a(s) aplicação(es)
-  ./mvnw spring-boot:run
+```./mvnw spring-boot:run```
 
 ## Para subir a aplicação em outra porta
-  SERVER_PORT=XXXX ./mvnw spring-boot:run
+```SERVER_PORT=XXXX ./mvnw spring-boot:run```
